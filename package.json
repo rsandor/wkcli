@@ -1,0 +1,31 @@
+{
+  "name": "wkcli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A command-line client for quick WaniKani queries.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsandor/wkcli.git"
+  },
+  "keywords": [
+    "WaniKani",
+    "command-line",
+    "client"
+  ],
+  "author": "Ryan Sandor Richards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsandor/wkcli/issues"
+  },
+  "homepage": "https://github.com/rsandor/wkcli#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "lodash": "^4.17.20",
+    "standard": "^16.0.2"
+  }
+}
